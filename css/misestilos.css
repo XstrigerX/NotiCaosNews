@@ -1,18 +1,18 @@
 body{
-    background-color: #d6efff;
+    background-color: #202e36;
     font-style: initial;
     background-image: url("../img/fondo1.png");
 
 }
 
 .btn-primary{
-    background-color: #020b57;
-    border-color: #020b57;
+    background-color: #570502;
+    border-color: #570502;
 }
 
 .btn-primary:hover{
-    background-color: #0e11da;
-    border-color: #0e11da;
+    background-color: #da0e0e;
+    border-color: #da0e0e;
 }
 
 
