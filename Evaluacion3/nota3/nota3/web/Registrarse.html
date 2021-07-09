@@ -1,0 +1,84 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <!-- encabesado -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caos News</title>
+    <link rel="{%static '/stylesheet'%}" href="css/bootstrap.css">
+    <link rel="{%static '/stylesheet'%}" href="css/misestilos.css">
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="row">
+          <!-- Encabesado -->
+          <header>
+              <div class="col text-white text-center">
+              <h3> Suscripción</h3>
+              <div><MARQUEE> Todas las noticias de Último Minuto.
+                -----  Entra e informate de los últimos acontecimientos ocurridos. 
+                -----  Noticia de verdad. Enterate de todos los acontecimientos habidos y por haber. 
+                -----  Todas las noticias de Último Minuto. Entra e informate de los últimos acontecimientos ocurridos.
+                -----  Noticia de verdad. Enterate de todos los acontecimientos habidos y por haber
+                -----  Entra e informate de los últimos acontecimientos ocurridos. 
+                -----  Noticia de verdad. Enterate de todos los acontecimientos habidos y por haber. 
+                -----  Todas las noticias de Último Minuto. Entra e informate de los últimos acontecimientos ocurridos.
+                -----  Noticia de verdad. Enterate de todos los acontecimientos habidos y por haber -----
+                </MARQUEE></div>
+              <div class="col-lg-4 col-md-6 col-12 ps-5">
+                <img src="{%static '/img/logo.png" class="img-fluid'%}">
+              </div>
+              <script src="{%static '/js/script.js"'%}></script>
+              
+           </div>
+          </header>   
+              </ul>
+            </div>
+        </div>
+        <br></br>
+        <br></br>
+      <!-- Formulario -->
+
+      <form action="" method="POST"  id="form" onsubmit="return validarRegistro()" >
+        <div class="form">
+          <div class="col-sm 10 offset-sm-4 text-center">  
+          <div class="col-lg-5 col-md-6 col-12">
+          <div class="grupo">
+            <label for="NombreInscripcion" class="form-label text-primary">Ingrese su Nombre de Usuario</label>
+            <input type="text" id="nombre" name=""aria-describedby="NombreDeUsuario" >
+          </div>
+          <div class="grupo">
+            <label for="InputEmail1" class="form-label text-primary">Correo Electronico</label>
+            <input type="email" id="email" name="" >
+            </div>  
+          <div class="grupo">
+            <label for="Password" class="form-label text-primary">Password</label>
+            <input type="password" id="pass" name="" >
+          
+            
+                 
+        <center><button type="submit" class="btn btn-primary">Subscribirse</button></center>
+      </form>
+      </div>
+      </div>
+    </div>
+
+
+
+
+
+
+      
+</div>
+ 
+    
+    <script src="{%static '/js/jquery-3.6.0.js'%}"></script>
+    <script src="{%static '/js/popper.js'%}"></script>
+    <script src="{%static '/js/bootstrap.js'%}"></script>
+</body>
+</html>
+
+

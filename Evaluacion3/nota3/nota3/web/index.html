@@ -1,0 +1,186 @@
+{% load static %}
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <!-- encabesado -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caos News</title>
+    <link rel="{%static '/stylesheet'%}" href="css/bootstrap.css">
+    <link rel="{%static '/stylesheet'%}" href="css/misestilos.css">
+</head>
+<body>
+    
+    <div class="container-fluid">
+        
+        <div class="row">
+          <!-- Encabesado -->
+          <header>
+          <div class="col text-white">NOTI CAOS WEB</div>
+           <div class="col"><ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Registrarse.html">Suscribirse</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login.html">Iniciar sesión</a>
+                </li>
+                <img src="{%static '/img/logo.png'%}" class="img-fluid">
+              </header>   
+              </ul>
+            </div>
+        </div>
+        <br></br>
+        <br></br>
+        <br></br>
+         <!-- Carousel -->
+        <div class="row">
+            <div class="col">
+                
+                <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      
+                        <div class="carousel-item active">
+                        <center><img src="{%static '/img/slide1.jpg'%}" class="d-block w-50" alt="..."></center>
+                        <div class="carousel-caption d-none d-md-block text-primary ">
+                          <h5>Seguimos en Fase 1</h5>
+                          <p>Medidas preventivas para un mejor autocuidado</p>
+                        </div>
+                      </div>
+                      
+                    <div class="carousel-item">
+                        <center><img src="{%static '/img/slide2.jpg'%}" class="d-block w-50" alt="..."></center>
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Posible acusación contra el Presidente</h5>
+                          <p>Constitucionalistas descartan que recurso contra el tercer retiro sea una causal</p>
+                        </div>
+                    </div>
+                      
+                    <div class="carousel-item">
+                        <center><img src="{%static '/img/slide3.jpg'%}" class="d-block w-50" alt="..."></center>
+                        <div class="carousel-caption d-none d-md-block text-primary">
+                          <h5>Elecciones</h5>
+                         <p>Conoce a todos los candidatos y candidatas</p>
+                        </div>
+                        </div>
+                    </div>
+                    
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+
+            </div>
+            
+        </div>
+        
+      
+      
+        
+      <p></p>
+      <!-- Otras Noticias -->
+        <div class="row">
+
+      <div class="col">
+
+        <div class="card-deck">
+          <div class="card">
+            <img src="{%static '/img/card1.jpg'%}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Medidasde autocuidado</h5>
+              <p class="card-text">Los últimos datos de como cuidarnos del covid 19.</p>
+            </div>
+            <div class="card-footer">
+              <a href="noti1.html" class="btn btn-primary">Accede</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="{%static '/img/card2.jpg'%}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cómo los latinos han evitado que muchos barrios en EE.UU. desaparezcan</h5>
+              <p class="card-text">Los barrios de Oak Cliff en la ciudad de Dallas y Little Village en Chicago están separados por más de 1.500 kilómetros de carretera, pero comparten una asombrosa historia en común.</p>
+            </div>
+            <div class="card-footer">
+              <a href="noti2.html" class="btn btn-primary">Accede</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="{%static '/img/card3.jpg'%}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">El marinero que pudo abandonar su barco tras pasar 4 años atrapado en él.</h5>
+              <p class="card-text">El destino de Mohammed Aisha quedó unido al barco MV Aman el 5 de mayo de 2017.</p>
+            </div>
+            <div class="card-footer">
+              <a href="noti3.html" class="btn btn-primary">Accede</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+</div>
+
+<p></p>
+
+<div class="row row-cols-1 row-cols-md-3">
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="{%static '/img/card4.jpg'%}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">La desesperada búsqueda de un submarino con 53 tripulantes a los que les quedan pocas horas de oxígeno</h5>
+        <p class="card-text">En Indonesia trabajan contra reloj para rescatar a 53 tripulantes de un submarino de la fuerza naval desaparecido antes de que se les acabe el oxígeno, según los últimos informes de la armada de ese país.</p>
+        
+          <a href="noti4.html" class="btn btn-primary">Accede</a>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="{%static '/img/card5.jpg'%}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">¿Por qué gritamos cuando nos divertimos?</h5>
+        <p class="card-text">Gritamos cuando tenemos miedo, pero también cuando estamos felices o emocionados.</p>
+        
+          <a href="noti5.html" class="btn btn-primary">Accede</a>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="{%static '/img/card6.jpeg'%}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">"No califico para el bono": las duras críticas al sistema de ayudas sociales en Chile para hacer frente a los efectos de la pandemia</h5>
+        <p class="card-text">Miles de chilenos han sido descalificados para recibir el Bono Clase Media que pretende ayudar a las familias que han sufrido una reducción de sus ingresos producto de la crisis por la pandemia.
+
+        </p>
+        <a href="noti6.html" class="btn btn-primary">Accede</a>
+      </div>
+    </div>
+  </div>
+</div>
+git add -a
+    
+    
+    <script src="{%static '/js/jquery-3.6.0.js'%}"></script>
+    <script src="{%static '/js/popper.js'%}"></script>
+    <script src="{%static '/js/bootstrap.js'%}"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,73 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <!-- encabesado -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caos News</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/misestilos.css">
+    <script src="{%static '/js/script.js'%}"></script>
+    <style>
+      .bg{
+        background-image: url({%static '/img/mundo.jpg'%});
+        background-position: center center;
+      }
+   </style>
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="row">
+          <!-- Encabesado -->
+          <header>
+             <div class="col-lg-4 col-md-6 col-12 ps-5">
+                <img src="{%static '/img/logo.png'%}" class="img-fluid">
+              </div>
+              </div>
+          </header>   
+              </ul>
+            </div>
+        </div>
+        <br></br>
+        <br></br>
+      <!-- Formulario -->
+      <div class="container">
+        <div class="row">
+          <div class="col bg">
+      <div class="col">
+        <div class="text-end"></div>
+        <h2 class="fw-Bold text-center py-5 text-white">Iniciar seción</h2>
+      <form action="" method="POST"  id="form" onsubmit="return validarInicio()" >
+        <div class="form">
+          <center><div class="grupo">
+            <input type="text" id="correoUsuario" name="" >
+            <label class="fw-Bold text-center py-5 text-white" for="">Correo</label>
+          </div>
+          <div class="grupo">
+            <input type="password" id="passUsuario" name="" >
+            <label  class="fw-Bold text-center py-5 text-white" for="">Contraseña</label>
+          </div></center>
+          
+            <br><br>
+          <center><button type="submit" id="enviar">Iniciar sesión</button></center>
+          <p class="warnings" id="warnings"></p>
+          </div>
+        </div></div></div>
+        
+      </form>
+   </div>
+     
+</div>
+ 
+    
+    <script src="{%static '/js/jquery-3.6.0.js'%}"></script>
+    <script src="{%static '/js/popper.js'%}"></script>
+    <script src="{%static '/js/bootstrap.js'%}"></script>
+    <script src="{%static '/bootstrap.bundle.min.js'%}></script>
+</body>
+</html>
+
+
